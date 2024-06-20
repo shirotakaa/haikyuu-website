@@ -587,7 +587,7 @@ img{
   }
 
   .card_container{
-    grid-template-columns: 165px 165px;
+    grid-template-columns: .6fr .6fr;
     justify-content: center;
     gap: 1rem;
   }
