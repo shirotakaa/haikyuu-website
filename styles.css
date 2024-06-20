@@ -53,12 +53,9 @@ img{
 }
 
 .section_title{
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin-bottom: 2rem;
   line-height: 140%;
-}
-
-.section_title-center{
   text-align: center;
 }
 
@@ -288,10 +285,6 @@ img{
 }
 
 /* CARD */
-.card_container{
-  padding-top: 1rem;
-}
-
 .card_content {
   display: flex;
   flex-direction: column;
@@ -556,6 +549,10 @@ img{
     margin-right: 1rem;
   }
 
+  .section_title{
+    margin-bottom: 1rem;
+  }
+
   .home_img{
     width: 300px;
   }
@@ -669,8 +666,7 @@ img{
     padding: 8rem 0 1rem;
   }
 
-  .section_title,
-  .section_title-center{
+  .section_title{
     font-size: 2.25rem;
   }
 
