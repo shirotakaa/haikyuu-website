@@ -343,8 +343,8 @@ img{
 }
 
 .card_icon{
-  font-size: 1.25rem;
-  color: #1a1e1d;
+  font-size: 1.15rem;
+  color: #eeeeee;
 }
 
 .card_content:hover .card_img{
@@ -568,6 +568,24 @@ img{
     margin-top: 3px;
   }
 
+  .card_button{
+    display: inline-flex;
+    padding: 5px;
+    border-radius: .25rem .25rem .75rem .25rem;
+    position: absolute;
+    right: -8.2rem;
+    bottom: 0;
+  }
+  
+  .card_button p{
+    font-size: 10px;
+    margin-left: 6px;
+  }
+
+  .card_icon{
+    font-size: .8rem;
+  }
+
   .card_container{
     grid-template-columns: .5fr .5fr;
     justify-content: center;
@@ -577,8 +595,9 @@ img{
   .card_content {
     padding: 1rem 0 2rem ;
   }
+
   .card_title{
-    font-size: .85rem;
+    font-size: .86rem;
   }
 }
 
